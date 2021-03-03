@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0f9b0f, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0f9b0f, #000000); 
+    font-family: "Poppins", sans-serif;   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    min-height: 100vh;
+}
+
+input {
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid #A1FFCE;
+    box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(0,0,0,0.2);
+    padding: 0.5rem;
+    color: black;
+    outline: none;
+    font-family: inherit;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+input::placeholder {
+    color: #006e09;
+}
+
+input:focus {
+    outline: none;
+}
+
+.card { 
+    background: #A1FFCE;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FAFFD1, #A1FFCE);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FAFFD1, #A1FFCE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    padding: 3rem;
+    max-width: 800px;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(0,0,0,0.2);
+}
+
+/* .img-container {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+} */
+
+.avatar {
+    border: 5px solid #006e09;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+.user-info {
+    font-size: 1rem;
+    color: green;
+    margin-left: 2rem;
+}
+
+.user-info h2 {
+    margin-top: 0;
+}
+
+.user-info ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+    max-width: 400px;
+}
+
+.user-info ul li {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+
+.user-info ul li strong {
+    font-size: 0.9rem;
+    margin-left: 0.5rem;
+}
+
+.repo {
+    border-radius: 10px;
+    background-color: #68fcaf;
+    display: inline-block;
+    color: black;
+    font-size: 0.7rem;
+    padding: 0.25rem 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    text-decoration: none;
+}
